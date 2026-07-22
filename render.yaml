@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: byos-fastapi
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m trmnl_server
+    envVars:
+      - key: SERVER_PORT
+        value: 10000
+      - key: TIME_ZONE
+        value: Europe/London
