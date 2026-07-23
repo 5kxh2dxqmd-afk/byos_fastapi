@@ -10,7 +10,8 @@ d3blocks>=1.0.0
 html2image>=2.0.0
 pandas>=2.0.0
 feedparser>=6.0.10
-pytest>=8.2.0ephem==4.2.1
+pytest>=8.2.0
+ephem==4.2.1
 feedparser==6.0.12
 ephem==4.2.1
 feedparser==6.0.12
